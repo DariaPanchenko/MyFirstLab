@@ -4,8 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/**
+ *      Класс с функциями нахождения максимального и минимального числа
+ *      @author  Дарья Панченко
+*/
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Функция нахождения максимального значения из двух элементов
+     * @param a - целое число
+     * @param b - целое число
+     */
     public int max(int a, int b){
         if (a >= b) {
             return a;
@@ -13,7 +22,11 @@ public class MainActivity extends AppCompatActivity {
         else
             return b;
     }
-
+    /**
+     * Функция нахождения минимального значения из двух элементов
+     * @param a - целое число
+     * @param b - целое число
+     */
     public int min(int a, int b){
         if(a <= b) {
             return a;
