@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
      * Функция нахождения максимального значения из двух элементов
      * @param a - целое число
      * @param b - целое число
+     * @return возвращает максимальное a или b
      */
     public int max(int a, int b){
         if (a >= b) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
      * Функция нахождения минимального значения из двух элементов
      * @param a - целое число
      * @param b - целое число
+     * @return возвращает минимальное a или b
      */
     public int min(int a, int b){
         if(a <= b) {
